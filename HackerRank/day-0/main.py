@@ -1,8 +1,9 @@
-# Read a full line of input from stdin and save it to our dynamically typed variable, input_string.
-input_string = input()
+mensaje_usuario = input('favor digite un mensaje aqui:') # get a line of get input from sdin and save it to our variable
 
-# Print a string literal saying "Hello, World." to stdout.
-print('Hello, World.')
+# Your first line of output goes here 
+print('bienvenido a mi mundo')
 
-# TODO: Write a line of code here that prints the contents of input_string to stdout.
-print(input_string)
+
+#write the second line of output 
+print(f'gracias por escribir el mensaje: {mensaje_usuario}')
+    
